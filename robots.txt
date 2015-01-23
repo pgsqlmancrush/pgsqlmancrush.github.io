@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://pgsqlmancrush.github.io/sitemap.xml 
