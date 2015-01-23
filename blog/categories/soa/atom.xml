@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[PGSQL Man Crush]]></title>
-  <link href="http://pgsqlmancrush.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Soa | PGSQL Man Crush]]></title>
+  <link href="http://pgsqlmancrush.github.io/blog/categories/soa/atom.xml" rel="self"/>
   <link href="http://pgsqlmancrush.github.io/"/>
   <updated>2015-01-23T13:45:10-06:00</updated>
   <id>http://pgsqlmancrush.github.io/</id>
@@ -67,15 +67,6 @@
 <p>So to wrap up this post I want to re-iterate the points I made above. SOA is a good idea but inconsistent implementation of the API and authorization protocols make things much harder then they should be. By defining a standard way of communicating with all services and centralizing authorization we can fix this issue. However it is not cost effective nor a good use of everyones time to re-build all of your existing services so instead I suggest we use the concept of a service bridge to act as middle ware enabling all of your old services to follow your new consistent protocol, while also giving you a place to build all of your new services.</p>
 
 <p>In part 2, we will look at how to build a Service Bridge on Heroku, and then in Part 3, we will connect the service bridge to a few applications including Salesforce, Postgres, and maybe an external application. Finally in part 4, I will show you how easy it is to build an application using services from the service bridge.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[About the Author]]></title>
-    <link href="http://pgsqlmancrush.github.io/blog/2015/01/23/about-the-author/"/>
-    <updated>2015-01-23T11:25:18-06:00</updated>
-    <id>http://pgsqlmancrush.github.io/blog/2015/01/23/about-the-author</id>
-    <content type="html"><![CDATA[<p>Over the past year and half I have been working for a small consulting company. Throughout that time I have worked with fortune 500 companies to build solutions on top of Salesforce.com and Heroku. As I worked more with Heroku my love for Postgres grew as a relational database, especially when it was able to handle well over 70 million records. My projects have given me the ability to use awesome pieces of technology like Heroku Connect, Salesforce Analytics Cloud, and distributed job queues. So I decided I wanted to start writing about it. I hope you enjoy.</p>
 ]]></content>
   </entry>
   
