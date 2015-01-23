@@ -128,14 +128,14 @@
 
 <p>I am sure many of you have heard of JSON. For those that have not it is essentially a way to store data in a key value format. I argue that all communication no matter the system could be translated and sent via JSON. So I am suggesting a standard format that looks something like this:</p>
 
-<pre><code>```{"Authentification":{...}, "Payload":{...}, "ServiceName":"...", "ReturnFormat":"..."}```
+<pre><code>{"Authentification":{...}, "Payload":{...}, "ServiceName":"...", "ReturnFormat":"..."}
 </code></pre>
 
 <p>The first thing to realize is your service bridge will act as your single sign on. The value you have in the <em>ServiceName</em> field will determine what type of authentication the service bridge will have to reach out to (and that will determine the format of your <em>Authentication</em> content). The <em>ServiceName</em> will also dictate what format the system is expecting the payload to be in.</p>
 
 <p>Now we have not touched on the <em>ReturnFormat</em> field yet. This field dictates whether the request is synchronous or asynchronous. There will be some services out there or some application out there that cannot handle an asynchronous communication. If that is the case a value of <em>synchronous</em> will tell the service bridge to keep the connection open as it completes the request. By default though I would suggest that the service bridge operate in asynchronous mode, and its return should look something like this:</p>
 
-<pre><code>```{"status":"queued", "id":"j123hg"}```
+<pre><code>{"status":"queued", "id":"j123hg"}
 </code></pre>
 
 <p>Where ID is a unique identifier of the job that was submitted. The application can then poll the service bridge with the Job ID, until the job completes and the result is returned, once again in JSON.</p>
