@@ -4,7 +4,7 @@
   <title><![CDATA[PGSQL Man Crush]]></title>
   <link href="http://pgsqlmancrush.github.io/atom.xml" rel="self"/>
   <link href="http://pgsqlmancrush.github.io/"/>
-  <updated>2015-01-23T12:03:38-06:00</updated>
+  <updated>2015-01-23T12:15:51-06:00</updated>
   <id>http://pgsqlmancrush.github.io/</id>
   <author>
     <name><![CDATA[Samuel Rosen]]></name>
@@ -18,7 +18,7 @@
     <link href="http://pgsqlmancrush.github.io/blog/2015/01/23/about-the-author/"/>
     <updated>2015-01-23T11:25:18-06:00</updated>
     <id>http://pgsqlmancrush.github.io/blog/2015/01/23/about-the-author</id>
-    <content type="html"><![CDATA[<p>Cool Stuff</p>
+    <content type="html"><![CDATA[<p>Over the past year and half I have been working for a small consulting company. Throughout that time I have worked with fortune 500 companies to build solutions on top of Salesforce.com and Heroku. As I worked more with Heroku my love for Postgres grew as a relational database, especially when it was able to handle well over 70 million records. My projects have given me the ability to use awesome pieces of technology like Heroku Connect, Salesforce Analytics Cloud, and distributed job queues. So I decided I wanted to start writing about it. I hope you enjoy.</p>
 ]]></content>
   </entry>
   
